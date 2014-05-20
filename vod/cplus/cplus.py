@@ -4,12 +4,12 @@ Canal Plus Downloader
 Downloads a movie from Canal Plus VOD
 
 Usage:
-  cplus.py gui [<id>] [-t <target>] [--avconv <avconv>] [--verbose]
-  cplus.py fetch <id> [-t <target>] [--avconv <avconv>] [--verbose]
-  cplus.py get <id> [<key>...] [--verbose]
-  cplus.py show <id> [--verbose]
-  cplus.py list [<category>] [<channel>] [-l <limit>] [-s <sort>] [-i] [--verbose]
-  cplus.py search <query> [<category>] [<channel>] [-l <limit>] [-s <sort>] [-i] [--verbose]
+  pycplus gui [<id>] [-t <target>] [--avconv <avconv>] [--verbose]
+  pycplus fetch <id> [-t <target>] [--avconv <avconv>] [--verbose]
+  pycplus get <id> [<key>...] [--verbose]
+  pycplus show <id> [--verbose]
+  pycplus list [<category>] [<channel>] [-l <limit>] [-s <sort>] [-i] [--verbose]
+  pycplus search <query> [<category>] [<channel>] [-l <limit>] [-s <sort>] [-i] [--verbose]
 
 Commands:
   gui                    Launch graphical user interface.
@@ -45,7 +45,7 @@ import time
 import textwrap
 from lxml import etree
 
-from vodservice.cli import run
+from vodservice.ui.cli import run
 from vodservice.video import AVConvDownloader
 from vodservice.vodservice import VodService
 from vodservice.vodservice import VodServiceShow

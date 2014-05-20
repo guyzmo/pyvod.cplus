@@ -22,7 +22,7 @@ long_description = """
 
 """.format(**read('README.md'))
 
-setup(name='pycplus',
+setup(name='pyvod.cplus',
       version='1.3',
       description="Pluzz TV Show Downloader",
       long_description=long_description,
@@ -39,11 +39,9 @@ setup(name='pycplus',
       packages=['cplus'],
       zip_safe=False,
       install_requires=[
-          'pycplus',
-          'docopt',
+          'pyvod.cplus',
+          'pyvod',
           'lxml',
-          'PyQtX',
-          'requests',
           'setuptools',
       ],
       entry_points="""
