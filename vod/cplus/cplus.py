@@ -45,10 +45,10 @@ import time
 import textwrap
 from lxml import etree
 
-from vodservice.ui.cli import run
-from vodservice.video import AVConvDownloader
-from vodservice.vodservice import VodService
-from vodservice.vodservice import VodServiceShow
+from vod.ui.cli import run
+from vod.video import AVConvDownloader
+from vod.vodservice import VodService
+from vod.vodservice import VodServiceShow
 
 ### cplus
 

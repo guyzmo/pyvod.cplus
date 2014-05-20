@@ -1,0 +1,2 @@
+include README.md
+recursive-include vod/cplus/i18n *

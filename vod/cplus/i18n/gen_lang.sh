@@ -10,5 +10,5 @@ else
 fi
 
 for lang in ${PWD}/*/; do
-     ${msgfmt} -o ${PWD}/${lang}/LC_MESSAGES/pyvod.mo ${PWD}/${lang}/LC_MESSAGES/pyvod.po
+     ${msgfmt} -o ${PWD}/${lang}/LC_MESSAGES/pyvod.cplus.mo ${PWD}/${lang}/LC_MESSAGES/pyvod.cplus.po
 done

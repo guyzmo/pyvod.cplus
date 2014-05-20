@@ -1,0 +1,49 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2014-05-20 21:48+CEST\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+
+
+#: ../../cplus/cplus.py:76
+msgid "Id"
+msgstr ""
+
+#: ../../cplus/cplus.py:77
+msgid "Genre"
+msgstr ""
+
+#: ../../cplus/cplus.py:78
+msgid "Broadcast"
+msgstr ""
+
+#: ../../cplus/cplus.py:79
+msgid "Length"
+msgstr ""
+
+#: ../../cplus/cplus.py:80
+msgid "Channel"
+msgstr ""
+
+#: ../../cplus/cplus.py:81
+msgid "Website"
+msgstr ""
+
+#: ../../cplus/cplus.py:82
+msgid "Picture"
+msgstr ""
+
+#: ../../cplus/cplus.py:136
+msgid "Get Data…"
+msgstr ""
+

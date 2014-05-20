@@ -9,4 +9,4 @@ import gettext
 if sys.version_info.major != 3:
     raise Exception("Sorry this software only works with python 3.")
 
-gettext.install('pycplus', os.path.join(os.path.dirname(__file__),'i18n'))
+gettext.install('pyvod.cplus', os.path.join(os.path.dirname(__file__),'i18n'))

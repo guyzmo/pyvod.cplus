@@ -36,7 +36,7 @@ setup(name='pyvod.cplus',
       author_email='pycplus@m0g.net',
       url='http://m0g.net',
       license='GPLv3',
-      packages=['cplus'],
+      packages=['vod'],
       zip_safe=False,
       install_requires=[
           'pyvod.cplus',
@@ -47,7 +47,7 @@ setup(name='pyvod.cplus',
       entry_points="""
       # -*- Entry points: -*-
       [console_scripts]
-      pycplus = cplus.cplus:main
+      pycplus = vod.cplus.cplus:main
       """,
       )
 

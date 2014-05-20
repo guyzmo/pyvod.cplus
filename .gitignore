@@ -1,0 +1,9 @@
+bin
+var
+*.pyc
+*.egg-info
+__pycache__
+build
+dist
+.installed.cfg
+.gitignore
